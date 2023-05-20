@@ -7,14 +7,8 @@ def main():
     # create objects to use
     calc = Calculator()
 
-    # other variables needed:
-    add_list = ['+', 'add', 'Add', 'addition', 'Addition']
-    subtra_list = ['-', 'subtract', 'Subtract', 'subtraction', 'Subtraction']
-    multi_list = ['x', '*', 'multiply', 'Multiply', 'multiplication', 'Multiplication']
-    divi_list = ['/', 'divide', 'Divide', 'division', 'Division']
-
     # ask user for operation to be used
-    operation = input('\nEnter operation: ')
+    operation = input('\nEnter operation: [ + | - | * | / ] ')
 
     # ask user for numbers to be used
     num1 = input('\nEnter 1st number: ')
@@ -22,19 +16,19 @@ def main():
 
     try:
         # calculate inputs using funtions from class
-        if operation in add_list:
+        if operation == '+':
             sum = calc.addition(num1, num2)
             # output result
             print('\n', sum)
-        elif operation in subtra_list:
+        elif operation == '-':
             dffrnc = calc.subtraction(num1, num2)
             # output result
             print('\n', dffrnc)
-        elif operation in multi_list:
+        elif operation == '*':
             prdct = calc.multiplication(num1, num2)
             # output result
             print('\n', prdct)
-        elif operation in divi_list:
+        elif operation == '/':
             qtnt = calc.division(num1, num2)
             # output result
             print('\n', qtnt)
