@@ -1,4 +1,8 @@
 # create class
+class Calculator:
+        def __init__(self):
+            pass
+        
 # create behaviors/statements
 # check for errors
 # ask user for operation to be used
