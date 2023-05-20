@@ -13,7 +13,15 @@ class Calculator:
     def multiplication(self, num1, num2):
         return float(num1) * float(num2)
     
-# check for errors
+    def divide(self, num1, num2):
+        try:
+            quotient = float(num1) / float(num2)
+        # check for errors
+        except ZeroDivisionError:
+            print("Cannot Divide by zero")
+        else: 
+            return quotient
+
 # ask user for operation to be used
 # calculate inputs using funtions from class
 # output result
