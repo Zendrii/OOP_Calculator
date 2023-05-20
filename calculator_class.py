@@ -16,7 +16,6 @@ class Calculator:
     def divide(self, num1, num2):
         try:
             quotient = float(num1) / float(num2)
-        # check for errors
         except ZeroDivisionError:
             print("Cannot Divide by zero")
         else: 
