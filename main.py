@@ -1,4 +1,6 @@
 def main():
+    print('\n', '\033[92m='*150)
+
     # import functions from class
     from calculator_class import Calculator
 
@@ -52,4 +54,7 @@ while True:
     # If no, the program will exit
     if choice == 'n':
         print('\nThank you!')
+
+        print('\n', '\033[92m='*150)
+        
         break
