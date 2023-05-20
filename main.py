@@ -35,3 +35,8 @@ try:
         # output result
         print(qtnt)
 
+# check for errors
+except ValueError:
+    print('\nOnly Numbers allowed!')
+except TypeError:
+    print('\nAn Error has Occured.')
