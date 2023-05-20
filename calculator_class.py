@@ -21,7 +21,3 @@ class Calculator:
             print("Cannot Divide by zero")
         else: 
             return quotient
-
-# ask user for operation to be used
-# calculate inputs using funtions from class
-# output result
