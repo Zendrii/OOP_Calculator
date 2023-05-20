@@ -12,30 +12,30 @@ def main():
     divi_list = ['/', 'divide', 'Divide', 'division', 'Division']
 
     # ask user for operation to be used
-    operation = input('Enter operation:(or press q to quit) ')
+    operation = input('\nEnter operation:(or press q to quit) ')
 
     # ask user for numbers to be used
-    num1 = input('Enter 1st number: ')
-    num2 = input('Enter 2nd number: ')
+    num1 = input('\nEnter 1st number: ')
+    num2 = input('\nEnter 2nd number: ')
 
     try:
         # calculate inputs using funtions from class
         if operation in add_list:
             sum = calc.addition(num1, num2)
             # output result
-            print(sum)
+            print('\n', sum)
         elif operation in subtra_list:
             dffrnc = calc.subtraction(num1, num2)
             # output result
-            print(dffrnc)
+            print('\n', dffrnc)
         elif operation in multi_list:
             prdct = calc.multiplication(num1, num2)
             # output result
-            print(prdct)
+            print('\n', prdct)
         elif operation in divi_list:
             qtnt = calc.division(num1, num2)
             # output result
-            print(qtnt)
+            print('\n', qtnt)
 
     # check for errors
     except ValueError:
