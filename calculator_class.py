@@ -4,8 +4,11 @@ class Calculator:
         pass
 
     # create behaviors/statements
-    def add(self, num1, num2):
+    def addition(self, num1, num2):
         return float(num1) + float(num2)
+    
+    def subtraction(self, num1, num2):
+        return float(num1) - float(num2)
     
 # check for errors
 # ask user for operation to be used
