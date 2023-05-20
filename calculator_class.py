@@ -13,7 +13,7 @@ class Calculator:
     def multiplication(self, num1, num2):
         return float(num1) * float(num2)
     
-    def divide(self, num1, num2):
+    def division(self, num1, num2):
         try:
             quotient = float(num1) / float(num2)
         except ZeroDivisionError:
