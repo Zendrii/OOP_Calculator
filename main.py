@@ -12,6 +12,10 @@ divi_list = ['/', 'divide', 'Divide', 'division', 'Division']
 
 operation = input('Enter operation: ')
 
+# ask user for numbers to be used
+num1 = input('Enter 1st number: ')
+num2 = input('Enter 2nd number: ')
+
 # calculate inputs using funtions from class
 
 
