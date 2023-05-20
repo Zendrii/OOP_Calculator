@@ -14,7 +14,7 @@ def main():
     divi_list = ['/', 'divide', 'Divide', 'division', 'Division']
 
     # ask user for operation to be used
-    operation = input('\nEnter operation:(or press q to quit) ')
+    operation = input('\nEnter operation: ')
 
     # ask user for numbers to be used
     num1 = input('\nEnter 1st number: ')
@@ -56,5 +56,5 @@ while True:
         print('\nThank you!')
 
         print('\n', '\033[92m='*150)
-        
+
         break

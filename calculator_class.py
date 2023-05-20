@@ -18,3 +18,5 @@ class Calculator:
             quotient = float(num1) / float(num2)
         except ZeroDivisionError:
             print('Cannot Divide by zero!')
+        else:
+            return quotient
