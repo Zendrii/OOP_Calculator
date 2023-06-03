@@ -1,35 +1,22 @@
-class Objects:
-    def objct(self):
+# add/create a new class that inherits the functions from parent class
+class Calculation:
+    def clcltn(self):
         # import functions from parent class
         from calculator_class import Calculator
 
         # create objects to use
         calc = Calculator()
-        return calc
 
-    def oprtn(self):
         # ask user for operation to be used
         operation = input('\nEnter operation: [ + | - | * | / ] ')
-        return operation
 
-    def npts(self):
         # ask user for numbers to be used
         num1 = input('\nEnter 1st number: ')
         num2 = input('\nEnter 2nd number: ')
-        return num1, num2
 
-# add/create a new class that inherits the functions from parent class
-class Conditions(Objects):
-    def chckr(self):
         try:
-            obj = super().objct()
-            oper = super().oprtn()
-            inp = super().npts()
-
-            
-
             # calculate inputs using funtions from class
-            if oper == '+':
+            if operation == '+':
                 sum = calc.addition(num1, num2)
                 # output result
                 print('\n', sum)
