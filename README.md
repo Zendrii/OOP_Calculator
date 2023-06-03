@@ -1,6 +1,6 @@
-# OOP-Based Calculator
-This simple calculator uses OOP in order to function
+# OOP-Based Calculator Using Inheritance
+This simple calculator uses OOP with inheritance in order to function
 ## How it Works
-This folder has 2 python files, one of which is a class from which the main file will import functions from. The `calculator_class.py` file has the basic operations of mathematics namely, addition, subtraction, multiplication, and division. In the `main.py` file, there are callouts to functions from the class file all possible because of the `from` and `import` functions. From there, the main program will ask a couple of prompts from the user and compute the result based on the inputs of the user.
+This folder has 3 python files, one of which is a parent class from which the child class will import functions from; then the main file will import the function from the child class to effectively create a calculator program. The `calculator_class.py` file has the basic operations of mathematics namely, addition, subtraction, multiplication, and division. In the `child_class.py` file, there are callouts to functions from the parent class, all possible because of the `from` and `import` functions. From there, the main program will execute the functions from the child class using the `from` and `import` again, and the rest is up to the inputs of the user.
 ### How to Use
 First, the program will ask what operation to use from the choices: `[ + | - | * | / ]`. Then, it will ask the two numbers to perform operations on. Based on the input on the prompt `Enter operation: [ + | - | * | / ]`, it will check through conditions, and then perform the operation under that condition. Once the inputs are computed, it will check if there are any errors and disply the reason for the error. Finally, the prompt `Do you want to try again? y/n` will show up. If you choose `y`, the program will start over, and if you choose `n`, the program will end with a `Thank you!`.
