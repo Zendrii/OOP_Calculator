@@ -2,7 +2,7 @@ def main():
     from child_class import Calculation
 
     clclt = Calculation()
-    
+
     clclt.clcltn()
 
 while True:
@@ -15,6 +15,6 @@ while True:
     if choice == 'n':
         print('\nThank you!')
 
-        print('\n', '\033[92m='*150)
+        print('\n', '\033[92m='*157)
         
         break

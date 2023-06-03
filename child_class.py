@@ -1,6 +1,8 @@
 # add/create a new class that inherits the functions from parent class
 class Calculation:
     def clcltn(self):
+        print('\n', '\033[92m='*157)
+
         # import functions from parent class
         from calculator_class import Calculator
 
